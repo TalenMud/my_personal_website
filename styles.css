@@ -1,0 +1,11 @@
+body
+{
+    background-color: #f5ca7a;
+    text-align: center;
+}
+.garfieldPic
+{
+    width : 240px;
+    height: 240px;
+    border-radius: 10%;
+}
