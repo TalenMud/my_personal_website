@@ -14,9 +14,9 @@ body
     width : 240px;
     height: 240px;
     border-radius: 10%;
-    padding-bottom: 15px;
 }
 .ColorButton {
+    margin-top: 15px;
     display:block;
     text-align: center;
     padding: 15px 25px;
@@ -39,4 +39,8 @@ body
 .ColorButton:active {
     transform: scale(1);
     box-shadow: none;
+}
+
+a{
+    text-decoration: none;
 }
