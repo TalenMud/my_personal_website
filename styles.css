@@ -1,12 +1,14 @@
 body
 {
-    display: flex;
-    flex-direction: column;
     background-color: #f5ca7a;
     text-align: center;
     font-family: Permanent Marker;
+    /* new stuff */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .garfieldPic
 {
@@ -15,10 +17,10 @@ body
     height: 240px;
     border-radius: 10%;
 }
+
 .ColorButton {
     margin-top: 15px;
     display:block;
-    text-align: center;
     padding: 15px 25px;
     font-size: 18px;
     cursor: pointer;
@@ -37,7 +39,7 @@ body
 }
 
 .ColorButton:active {
-    transform: scale(1);
+    transform: scale(0.2);
     box-shadow: none;
 }
 
